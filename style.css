@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: #faf8ef;
+  }
+
+  #map {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .node {
+      stroke: #fff;
+      stroke-width: 1px;
+  }
+  .node-active {
+      stroke: #555;
+      stroke-width: 1px;
+  }
+  
+
+  .overlay {
+      fill: none;
+      pointer-events: all;
+  }
+  .circle, .button {
+    cursor: pointer; 
+    cursor: hand;
+  }
+
+
+  .nodetext, .attempt, .title, .replay, .desc { 
+      fill: #000;
+      pointer-events: none;      
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  .nodetext {
+      font-size: 20pt;
+      font-weight: bold;
+  } 
+
+  .title {
+      font-size: 22pt; 
+      font-weight: bold;     
+  }
+
+  .attempt {
+      font-size: 16pt; 
+      font-weight: bold; 
+  }
+
+  .replay {
+      font-size: 12pt;
+      font-weight: bold;
+  }
+
+  .desc {
+      font-size: 11pt;
+  }
+
+  .red {
+        fill: #C81E14;
+    }
+  .grey {
+        fill: lightgrey;
+    }
